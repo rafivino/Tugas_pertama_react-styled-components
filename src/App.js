@@ -1,10 +1,14 @@
 import './App.css';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+
+  const KataRataTengah = css `
+    text-align: ${props => props.KataRataTengah ? `left` : `center`};
+  `;
 
   const Judul = styled.h1`
-    text-align: center;
+    font-size: 30px;
     color: purple;
-    font-size: 30px
+    ${KataRataTengah}
   `;
 
   const IniSection = styled.section`
@@ -21,7 +25,16 @@ import styled from 'styled-components';
     background: ${props => props.kedua ? `blue` : `white`};
     line-height: 40px;
     display: block;
-    margin: 0 auto
+    margin: 0 auto;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    // penambahan efek pseudo-classes pada tombol
+    &:hover {
+    background-color: black;
+    color: white;
+    border-color: black
+    }
   `;
 
   const TombolExtending = styled(Tombol)`
@@ -29,16 +42,35 @@ import styled from 'styled-components';
     background: green;
   `;
 
+  const ContohSatuH = styled.h2`
+    color: pink;
+    font-size: 25px;
+    ${KataRataTengah}
+  `;
 
+  const ContohDuaH = styled.h3`
+    ${KataRataTengah}
+    color: red;
+    font-size: 35px;
+    cursor: pointer;
+    
+    &:hover {
+      text-decoration: underline;
+      color: orange;
+      font-size: 50px
+    }
+  `;
 
 function App() {
   return (
   <>
-  <Judul>INI TUGAS REACT PERTAMA</Judul>
+  <Judul>INI TUGAS REACT KEDUA</Judul>
   <IniSection>Inilah Contoh Section</IniSection><br/>
   <Tombol>Lanjut</Tombol><br/>
   <Tombol kedua>Selanjutnya</Tombol><br/>
   <TombolExtending kedua>Contoh</TombolExtending>
+  <ContohSatuH>INI CONTOH 1</ContohSatuH>
+  <ContohDuaH>INI CONTOH 2</ContohDuaH>
   
   </>
   );
