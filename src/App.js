@@ -6,7 +6,7 @@ import styled, { css } from 'styled-components';
   `;
 
   const Judul = styled.h1`
-    font-size: 30px;
+    font-size: 55px;
     color: purple;
     ${KataRataTengah}
   `;
@@ -64,7 +64,7 @@ import styled, { css } from 'styled-components';
 function App() {
   return (
   <>
-  <Judul>INI TUGAS REACT KEDUA</Judul>
+  <Judul>INI TUGAS REACT KEDUA & LATIHAN GIT BRANCH BARU</Judul>
   <IniSection>Inilah Contoh Section</IniSection><br/>
   <Tombol>Lanjut</Tombol><br/>
   <Tombol kedua>Selanjutnya</Tombol><br/>
