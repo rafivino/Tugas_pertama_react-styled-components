@@ -61,6 +61,19 @@ import styled, { css } from 'styled-components';
     }
   `;
 
+  const ContohTigaH = styled.h4`
+    ${KataRataTengah}
+    color: aquamarine;
+    font-size: 40px;
+    cursor: pointer;
+
+    $:hover{
+      text-decoration: underline;
+      color: blue;
+      font-size: 70px;
+    }
+  `
+
 function App() {
   return (
   <>
@@ -71,6 +84,7 @@ function App() {
   <TombolExtending kedua>Contoh</TombolExtending>
   <ContohSatuH>INI CONTOH 1</ContohSatuH>
   <ContohDuaH>INI CONTOH 2</ContohDuaH>
+  <ContohTigaH>INI CONTOH 3</ContohTigaH>
   
   </>
   );
