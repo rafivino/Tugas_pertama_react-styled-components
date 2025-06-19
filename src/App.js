@@ -84,7 +84,7 @@ function App() {
   <TombolExtending kedua>Contoh</TombolExtending>
   <ContohSatuH>INI CONTOH 1</ContohSatuH>
   <ContohDuaH>INI CONTOH 2</ContohDuaH>
-  <ContohTigaH>INI CONTOH 3</ContohTigaH>
+  <ContohTigaH>INI CONTOH 3 & LATIHAN GITHUB</ContohTigaH>
   
   </>
   );
