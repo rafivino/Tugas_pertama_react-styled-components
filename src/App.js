@@ -82,7 +82,7 @@ import styled, { css } from 'styled-components';
 
     $:hover{
       text-decoration: underline;
-      color: yellow;
+      color: blue;
       font-size: 35px;
     }
   `
