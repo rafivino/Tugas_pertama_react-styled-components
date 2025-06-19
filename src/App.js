@@ -77,6 +77,7 @@ import styled, { css } from 'styled-components';
   const ContohEmpat = styled.h5`
   ${KataRataTengah}
   font-size: 40px;
+  color: cream;
   `
 
 function App() {
