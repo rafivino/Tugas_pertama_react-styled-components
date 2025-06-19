@@ -70,7 +70,7 @@ import styled, { css } from 'styled-components';
     $:hover{
       text-decoration: underline;
       color: blue;
-      font-size: 70px;
+      font-size: 50px;
     }
   `
 
