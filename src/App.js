@@ -70,7 +70,7 @@ import styled, { css } from 'styled-components';
     $:hover{
       text-decoration: underline;
       color: blue;
-      font-size: 50px;
+      font-size: 55px;
     }
   `
 
@@ -84,7 +84,7 @@ function App() {
   <TombolExtending kedua>Contoh</TombolExtending>
   <ContohSatuH>INI CONTOH 1</ContohSatuH>
   <ContohDuaH>INI CONTOH 2</ContohDuaH>
-  <ContohTigaH>INI CONTOH 3 & LATIHAN GITHUB</ContohTigaH>
+  <ContohTigaH>INI CONTOH 3 & LATIHAN GITHUB BRANCH</ContohTigaH>
   
   </>
   );
