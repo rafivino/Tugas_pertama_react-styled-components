@@ -74,6 +74,12 @@ import styled, { css } from 'styled-components';
     }
   `
 
+  const ContohEmpat = styled.h5`
+  ${KataRataTengah}
+  font-size: 40px;
+  color: cream;
+  `
+
 function App() {
   return (
   <>
@@ -85,6 +91,7 @@ function App() {
   <ContohSatuH>INI CONTOH 1</ContohSatuH>
   <ContohDuaH>INI CONTOH 2</ContohDuaH>
   <ContohTigaH>INI CONTOH 3 & LATIHAN GITHUB BRANCH</ContohTigaH>
+  <ContohEmpat>INI CONTOH 4</ContohEmpat>
   
   </>
   );
